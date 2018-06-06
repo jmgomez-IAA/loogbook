@@ -1,3 +1,9 @@
+
+# emacs files
+*~
+\#*\#
+
+# jekyll files
 _site/
 .sass-cache/
 .jekyll-cache/
