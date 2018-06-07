@@ -1,11 +1,17 @@
 # Site settings
-title:
-email:
-author:
-description:
-url:
+title: Juanma Gómez
+email: jmgomez@iaa.es
+author: Juan Manuel Gómez López
+description: Mi portafolio y algunas cosillas más...
+url: 
+
+# Social icons
+show_social_icons: true
+github_username: jmgomez-IAA
+twitter_username: grLean
 
 # Build settings
 permalink: :title/
 sass:
   sass_dir: css
+
