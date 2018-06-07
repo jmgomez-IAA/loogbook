@@ -5,6 +5,10 @@ author: Juan Manuel Gómez López
 description: Mi portafolio y algunas cosillas más...
 url: 
 
+#plugins 
+plugins: [jekyll-paginate]
+paginate: 3
+
 # Social icons
 show_social_icons: true
 github_username: jmgomez-IAA
