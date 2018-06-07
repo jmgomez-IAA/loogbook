@@ -39,5 +39,20 @@
     }
   }
 
+  // copy btn style
+  .btn-copy-code {
+    color: $gray-900;
+    padding-right: 5px;
+    float: right;
+    background: $code-heading-background;
+    border: 0;
+    font-size: 12px;
+    margin-top: -30px;
+    &:hover {
+      cursor: pointer;
+      color: $primary;
+    }
+  }
+
 }
 
