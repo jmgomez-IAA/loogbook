@@ -2,10 +2,55 @@
 $font-family-base: 'Redressed'; //'Niconne';
 
 
-$primary: #B85B14; //#FC7307; //#0B142E; //#1183a5; //#8d021f; // burgundy
+$primary: #ECC021; //#B85B14; //#FC7307; //#0B142E; //#1183a5; //#8d021f; // burgundy
 $info: #7f7f7f; // grey
 
 
 $code-heading-background: #dededc; // light grey
 $code-text-color: #b6b6b6; // off white
+
+
+//** Background color for `<body>`.
+// $body-bg: #C7D2F1 !default;
+//** Global text color on `<body>`.
+// $text-color:            $gray-dark !default;
+
+//** Global textual link color.
+//** $link-color:            $brand-primary !default;
+//** Link hover color set via `darken()` function.
+//** $link-hover-color:      darken($link-color, 15%) !default;
+//** Link hover decoration.
+//** $link-hover-decoration: underline !default;
+
+//@brand-primary
+//@brand-success
+//@brand-info
+//@brand-warning
+//@brand-danger
+//@font-family-sans-serif
+//@font-family-serif
+//@font-family-monospace
+
+//Default monospace fonts for <code>, <kbd>, and <pre>.
+//@font-family-base
+//@font-size-base
+//@font-size-large
+//@font-size-small
+//@font-size-h1
+//@font-size-h2
+//@font-size-h3
+//@font-size-h4
+//@font-size-h5
+//@font-size-h6
+//@line-height-base
+
+//Unit-less line-height for use in components like buttons.
+//@line-height-computed
+
+//Computed "line-height" (font-size * line-height) for use with margin, padding, etc.
+//@headings-font-family
+
+//By default, this inherits from the <body>.
+//@headings-font-weight
+//@headings-line-height
 
