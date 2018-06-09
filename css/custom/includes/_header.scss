@@ -1,3 +1,4 @@
+
 .navbar{
     box-shadow: 1px 1px 3px $primary;
     opacity: 0.8;
@@ -9,10 +10,13 @@
     }
 }
 
-.nav-link {
-    color: $info !important;
+    .nav-link {
+        font-weight:bold;
+	color: $warning !important;
 
-    &:hover {
-	color: $primary !important;
-    }
+
+	&:hover {
+		color: $primary !important;
+	}
+     }
 }
