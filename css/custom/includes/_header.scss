@@ -2,21 +2,26 @@
 .navbar{
     box-shadow: 1px 1px 3px $primary;
     opacity: 0.8;
-    background: $white;
+    background: $brand-warning;
+
+//    background: url('../img/bg_soyuz_001.jpeg');
+//    background-position: right 10px bottom -200px;
+//    background-repeat: no-repeat;
+//    min-height: 20px;
 
     .nav-item{
 	font-size: 1.4rem;
 	padding-right: 20px;
     }
-}
 
     .nav-link {
         font-weight:bold;
-	color: $warning !important;
+	color: $brand-primary !important;
 
 
 	&:hover {
-		color: $primary !important;
+		color: $brand-warning !important;
 	}
      }
+
 }

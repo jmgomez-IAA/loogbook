@@ -3,52 +3,15 @@
   position: relative;
   background: url('../img/bg_soyuz_001.jpeg');
   min-height: 200px;
+  background-position: right 10px bottom 0px;
+//  background-repeat: no-repeat;
 
   .primary-overlay{
-    background: rgba(17,131,165,0.6);
+    background: rgba(63,63,63,0.6);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
   }
-}
-
-.navbar {
-    width:100%;
-
-    @media(max-width: 34em) {
-        background: black !important;
-    }
-
-    .navbar-toggler {
-        cursor:pointer;
-        outline:0;
-    }
-
-    .nav-link {
-        text-transform:uppercase;
-        font-weight:bold;
-	color: #FFFFFF !important;
-
-
-	&:hover {
-		color: $primary !important;
-	}
-     }
-
-    .nav-item {
-        padding: 0 1rem;
-
-        @media(max-width: 34em) {
-            padding: 0;
-        }
-
-        .nav-link {
-            @media(max-width: 34em) {	    
-                font-weight:normal;
-                color:#fff !important;
-            }
-        }
-    }
 }
