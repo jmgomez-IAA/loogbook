@@ -3,15 +3,16 @@ $font-family-base: 'Redressed'; //'Niconne';
 
 
 //** Background color for `<body>`.
-$body-bg: #E5E0FA !default; //azul 0.
-$nav-bg: #8C78E8 !default; //azul 1.
-$footer-bg: #110934 !default; //Azul 5
+$body-bg: #f8f8fa !default;
+$nav-bg: #ffffff !default; 
+$banner-bg: #30c9e9 !default;
+$footer-bg: #f8f8fa !default; 
 
 //** Esquema de colores.
-$primary: #4424D6 !default; // Azul 3
-$warning: #29157E !default; // Azul 4
+$primary: #2d3738 !default; // Negro Pizarra
+$warning: #ff4431 !default; // Rojo boton
 
-$info: #3399CC !default; //Azul claro
+$info: #3399CC !default;  //Azulon
 $success: #00FF00 !default;
 $danger: #FF0000 !default;
 
@@ -31,11 +32,11 @@ $code-text-color: #b6b6b6; // off white
 
 
 //** Global textual link color.
-$link-color:            $brand-primary !default;
+//$link-color:            $brand-primary !default;
 //** Link hover color set via `darken()` function.
-$link-hover-color:      darken($link-color, 15%) !default;
+//$link-hover-color:      darken($link-color, 15%) !default;
 //** Link hover decoration.
-$link-hover-decoration: underline !default;
+//$link-hover-decoration: underline !default;
 
 
 //@font-family-sans-serif
