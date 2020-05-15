@@ -14,19 +14,20 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Cuaderno de bitacora
-email: jmgomez@protonmail.com
-description: >- # this mean to ignore newlines until "baseurl:"
+email: greenlean@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
   No es facil seguirle la pista a todo lo que se desarrolla, repara
   e investiga durante el dia a dia de un informatico. Estas microhistorias
   pretender ser una recuerdo de estas aventuras, mediante apuntes
-  cortos, rapidos y con escaso formato
+  cortos, rapidos y con escaso formato.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jmgomez-iaa.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: grLean
 github_username:  jmgomez-iaa
-logo: images/logbook.jpg 
+
 # Build settings
 markdown: kramdown
+#theme: minima
 theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
