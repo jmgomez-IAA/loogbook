@@ -5,6 +5,9 @@ author: Juan Manuel Gómez López
 description: Mi portafolio y algunas cosillas más...
 url: 
 
+#Themas
+theme: jekyll-theme-minimal
+
 #plugins 
 plugins: [jekyll-paginate]
 paginate: 3
